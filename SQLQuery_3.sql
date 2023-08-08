@@ -64,3 +64,4 @@ FROM SalesLT.Customer
 WHERE CustomerID NOT IN (SELECT CustomerID
                         FROM SalesLT.CustomerAddress)
 //test
+//next fix
